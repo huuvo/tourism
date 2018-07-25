@@ -1,0 +1,237 @@
+.container{
+	border:1px solid #ddd;
+	border-radius:5px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+#header img{width:500px;
+height:650px;}
+#menu_header{
+		height:40px;
+	width:100%;
+	border-radius:5px;
+
+}
+#menu{
+width:100%;
+border-radius:5px;
+border:1px solid #ddd;
+height:40px;
+background-color: #AFE4F4;
+}
+#menu li{
+	float:left;
+	list-style-type:none;
+	width: 145px;
+	padding:8px;
+	text-align:center;
+    background-color:#0066cc;
+    border:1px solid  #0066cc ;
+    border-radius:3px; 
+    margin:1px;
+   position:relative;
+	   
+}
+#menu li a{
+	color:white;
+}
+#submenu{
+			   display:none;   
+    margin-left: -50px;   
+   		top:100%;
+}
+#submenu li{
+	 float:none;
+	border-bottom: 1px solid #313D8F;
+	width: 200px;
+    margin-top: 1px;
+
+}
+#submenu li:hover{
+	background-color:#00b8e6;
+    
+
+}
+
+#menu li:hover ul{
+	display:block;
+	position:absolute;
+	z-index:50;
+    
+
+
+			
+	
+}
+
+#search{
+	margin-top: -42px;
+    margin-right: 60px;
+    float: right;
+}
+#slide_img{
+	border-radius:5px;
+	height:400px;
+ border:1px solid gray;
+       margin: 5px 8px 0px 5px;
+
+}
+#notification{
+ border:1px solid gray;
+	height:400px;
+	    margin: 5px;
+	border-radius:5px;
+
+}
+#notification ul{
+	margin-top:20px;
+	list-style-image:url('../images/traitim.png');
+}
+#notification ul li{
+	padding:5px;
+}
+#page{
+	border-radius:5px;
+	border:1px solid gray;
+	height:350px;
+	margin: 3px 0px 0px 5px;
+
+
+}
+#newpage{
+	
+	height:350px;
+	margin-left:5px;
+}
+#newpage img{
+	float:left;
+	margin-right:5px;
+}
+
+#body_right{
+ margin-left: 10px;
+
+}
+#bar_right{
+	height:250px;
+	margin: 10px 10px 0px 0px;
+	border:1px solid gray;
+	border-radius:5px;
+}
+.form-inline{
+	text-align:center;
+	margin-top:5px;
+}
+.btn-primary{
+	margin-top:5px;
+}
+#event_slide{
+	height:50px;
+}
+#link_website{
+	height:50px;
+}
+#title{
+	    border-radius: 4px 4px 0px 0px;
+	 height:40px;
+	   background-color:#0066CC;
+}
+#resouse{
+	margin:5px 5px 5px 20px ;
+	padding:5px;
+
+
+}
+#resouse img{
+	
+	border-radius:5px;
+	box-shadow:2px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+#resouse img:hover{
+	border:1px solid gray;
+}
+#thongke{
+	height:150px;
+	border:1px solid gray;
+	border-radius:5px;
+	margin: 3px 5px 0px 0px;
+
+}
+#thongke span{
+	margin-left:30px;
+	margin-top:30px;
+}
+#title h3{
+	padding:7px;
+	   color: white;
+}
+#title a{
+	color:white;
+}
+#quangcao{
+	margin:15px;
+	padding:5px;
+}
+#event_slide{
+	   border:1px solid gray;
+		margin: 3px 5px 0px 5px;
+		height:155px;
+		border-radius:5px;
+	}
+	marquee img{
+		border-radius:6px;
+		margin-top:6px;
+	}
+#link_website{
+	    border:1px solid gray;
+		margin: 3px 5px 0px 5px;
+		height:150px;
+		border-radius:5px;
+
+
+}
+#link_website img{
+	padding:5px;
+	margin-top:10px;
+	
+}
+#link_website img:hover{
+border:1px solid gray;
+position:relative;
+
+}
+#footer{
+	border:1px solid gray;
+			margin: 3px 5px 0px 5px;
+		border-radius:5px;
+		text-align:center;
+
+}
+#header-status{
+	background:blue;
+	padding:0;
+}
+.container_12{
+	height:38px;
+	margin:0 auto;
+	width:1000px;
+	
+}
+.container_12 .grid_4{
+	width:100%;
+}
+.user-pro{
+	padding:10px 0 px;
+	
+}
+.user-pro li a {
+	color:#FFF;
+
+}
+a {
+	text-decoration:none;
+}
+
+
+
